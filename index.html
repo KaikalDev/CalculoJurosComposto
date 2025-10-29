@@ -8,26 +8,26 @@
 </head>
 <body>
   <h1>Calculadora de Juros Compostos</h1>
-  <form>
+  <form id="form">
     <div>
-      <label for="">Capital inicial (R$): </label>
-      <input type="number" required step="0.01" >
+      <label for="capital">Capital inicial (R$): </label>
+      <input id="capital" name="capital" type="number" required step="0.01" >
     </div>
     <div>
-      <label for="">Taxa de juros (% ao mês): </label>
-      <input type="number" required step="0.01" >
+      <label for="taxa">Taxa de juros (% ao mês): </label>
+      <input id="taxa" name="taxa" type="number" required step="0.01" >
     </div>
     <div>
-      <label for="">Tempo (meses): </label>
-      <input type="number" required >
+      <label for="tempo">Tempo (meses): </label>
+      <input id="tempo" name="tempo" type="number" required >
     </div>
     <div>
       <button type="submit">Calcular</button>
-      <button type="reset">Limpar</button>
+      <button id="limpar" type="reset">Limpar</button>
     </div>
   </form>
 
-  <table>
+  <table id="tabelaResultados">
     <thead>
       <tr>
         <th>Mês</th>
