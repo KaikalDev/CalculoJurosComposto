@@ -29,3 +29,7 @@
       tabela.innerHTML += linha;
     }
   });
+
+  limpar.addEventListener('click', () => {
+    tabela.innerHTML = "";
+  });
