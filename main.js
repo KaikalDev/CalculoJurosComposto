@@ -1,4 +1,4 @@
-  const form = document.getElementById('calcForm');
+  const form = document.getElementById('form');
   const tabela = document.querySelector('#tabelaResultados tbody');
   const limpar = document.getElementById('limpar');
 
@@ -22,8 +22,8 @@
       const linha = `
         <tr>
           <td>${mes}</td>
-          <td>${montante.toFixed(2)}</td>
-          <td>${jurosTotal.toFixed(2)}</td>
+          <td>R$ ${montante.toFixed(2)}</td>
+          <td>R$ ${jurosTotal.toFixed(2)}</td>
         </tr>
       `;
       tabela.innerHTML += linha;
