@@ -18,5 +18,14 @@
       const jurosMes = montante * taxa;
       montante += jurosMes;
       jurosTotal = montante - capital;
+
+      const linha = `
+        <tr>
+          <td>${mes}</td>
+          <td>${montante.toFixed(2)}</td>
+          <td>${jurosTotal.toFixed(2)}</td>
+        </tr>
+      `;
+      tabela.innerHTML += linha;
     }
   });
