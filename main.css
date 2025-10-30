@@ -62,3 +62,16 @@ button{
     border: none;
     cursor: pointer;
 }
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border: white 1px solid;
+    margin: 10px 20px;
+    max-width: 90vw;
+}
+th, td{
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
