@@ -53,3 +53,12 @@ imput
     margin-top: 5px;
     width: 100%;
 }
+button{
+    margin: 20px 10px 10px 0;
+    padding: 15px;
+    font-size: 18px;
+    background-color: rgb(24, 1, 70);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
