@@ -14,3 +14,42 @@ header{
     color: white;
     padding: 20px 20px;
 }
+.hero{
+    margin: 70px 20px;
+}
+h1{
+    font-size: 48px;
+    font-family: oswald, sans-serif;
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 16px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.Forms{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    gap: 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 20px;
+}
+label{
+    margin-top: 20px;
+    font-size: 20px;
+}
+imput
+{
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+}
