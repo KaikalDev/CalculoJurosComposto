@@ -29,7 +29,7 @@
       tabela.innerHTML += linha;
     }
   });
-
+// rhubi
   function trocarCor(btn){
       btn.style.background = "green"
   }
