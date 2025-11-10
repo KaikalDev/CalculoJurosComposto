@@ -31,7 +31,7 @@
   });
 // rhubi
   function trocarCor(btn){
-      btn.style.background = "green"
+      btn.style.background = "purple"
   }
 
   document.querySelector("#calcular").addEventListener("click", (e)=>{
