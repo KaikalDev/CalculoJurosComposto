@@ -30,6 +30,14 @@
     }
   });
 
+  function trocarCor(btn){
+      btn.style.background = "green"
+  }
+
+  document.querySelector("#calcular").addEventListener("click", (e)=>{
+    trocarCor(e.currentTarget)
+  })
+
   limpar.addEventListener('click', () => {
     tabela.innerHTML = "";
   });
