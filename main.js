@@ -29,6 +29,14 @@
       tabela.innerHTML += linha;
     }
   });
+// rhubi
+  function trocarCor(btn){
+      btn.style.background = "purple"
+  }
+
+  document.querySelector("#calcular").addEventListener("click", (e)=>{
+    trocarCor(e.currentTarget)
+  })
 
   limpar.addEventListener('click', () => {
     tabela.innerHTML = "";

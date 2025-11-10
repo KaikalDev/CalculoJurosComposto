@@ -17,44 +17,46 @@
     <h1 class="titulo">WealthTech</h1>
     <h3>Calculadora de Juros Compostos</h3>
   </div>
-  <form id="form" class="Forms">
-    <div>
-      <h2>
-        Dados para o Cálculo:
-      </h2>
-      <label for="capital">Capital inicial (R$): </label>
-      <input id="capital" name="capital" type="number" required step="0.01" >
-    </div>
-    <div>
-      <label for="taxa">Taxa de juros (% ao mês): </label>
-      <input id="taxa" name="taxa" type="number" required step="0.01" >
-    </div>
-    <div>
-      <label for="tempo">Tempo (meses): </label>
-      <input id="tempo" name="tempo" type="number" required >
-    </div>
-    <div>
-      <button type="submit">Calcular</button>
-      <button id="limpar" type="reset">Limpar</button>
-    </div>
-  </form>
-
-  <table id="tabelaResultados" class="tabela">
-    <thead>
-      <tr>
-        <th>Mês</th>
-        <th>Montante (R$)</th>
-        <th>Juros Acumulado (R$)</th>
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-  </table>
+  <div class="corpo">
+    <form id="form" class="Forms">
+      <div>
+        <h2>
+          Dados para o Cálculo:
+        </h2>
+        <label for="capital">Capital inicial (R$): </label>
+        <input id="capital" name="capital" type="number" required step="0.01" >
+      </div>
+      <div>
+        <label for="taxa">Taxa de juros (% ao mês): </label>
+        <input id="taxa" name="taxa" type="number" required step="0.01" >
+      </div>
+      <div>
+        <label for="tempo">Tempo (meses): </label>
+        <input id="tempo" name="tempo" type="number" required >
+      </div>
+      <div>
+        <button id="calcular" type="submit">Calcular</button>
+        <button id="limpar" type="reset">Limpar</button>
+      </div>
+    </form>
+    <table id="tabelaResultados" class="tabela">
+      <thead>
+        <tr>
+          <th>Mês</th>
+          <th>Montante (R$)</th>
+          <th>Juros Acumulado (R$)</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
 
   <script src="./main.js"></script>
   <footer>
     <p>Desenvolvido por WealthTech &copy; 2024</p>
     <p>Por RhubiMarcalDev e KaikalDev</p>
+    <p>trabalho de filipy</p>
   </footer>
 </body>
 </html>

@@ -40,6 +40,13 @@ h3{
     background-color: rgb(255, 255, 255);
     color: black;
     padding: 20px;
+    margin-bottom: 100px;
+    max-height: min-content;
+}
+
+.corpo{
+    display: flex;
+
 }
 
 .Forms h2{
@@ -66,12 +73,13 @@ button{
     cursor: pointer;
 }
 table{
-    width: 100%;
+    width: 80%;
     border-collapse: collapse;
     margin: 20px 0;
     border: white 1px solid;
     margin: 10px 20px;
     max-width: 90vw;
+    
 
 }
 th, td{
