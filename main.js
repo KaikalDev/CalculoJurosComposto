@@ -1,6 +1,7 @@
   const form = document.getElementById('form');
   const tabela = document.querySelector('#tabelaResultados tbody');
   const limpar = document.getElementById('limpar');
+  const calcular = document.getElementById('calcular');
 
   form.addEventListener('submit', function(e) {
     e.preventDefault();
@@ -29,15 +30,12 @@
       tabela.innerHTML += linha;
     }
   });
-// rhubi
-  function trocarCor(btn){
-      btn.style.background = "purple"
-  }
 
-  document.querySelector("#calcular").addEventListener("click", (e)=>{
-    trocarCor(e.currentTarget)
+  calcular.addEventListener('click', () => {
+    calcular.style.background = "purple"
   })
 
   limpar.addEventListener('click', () => {
     tabela.innerHTML = "";
+    limpar.style.background = "red"
   });
